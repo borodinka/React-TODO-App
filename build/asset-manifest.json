@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/borodinka/React-TODO-App.git/static/css/main.31d6cfe0.css",
+    "main.js": "/borodinka/React-TODO-App.git/static/js/main.948fdddd.js",
+    "static/js/787.28cb0dcd.chunk.js": "/borodinka/React-TODO-App.git/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/borodinka/React-TODO-App.git/index.html",
+    "main.948fdddd.js.map": "/borodinka/React-TODO-App.git/static/js/main.948fdddd.js.map",
+    "787.28cb0dcd.chunk.js.map": "/borodinka/React-TODO-App.git/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.948fdddd.js"
+  ]
+}
