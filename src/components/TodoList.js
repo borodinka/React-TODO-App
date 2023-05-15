@@ -57,7 +57,6 @@ export default function TodoList({ tasks, dispatch }) {
 				</button>
 				<button
 				  onClick={() => handleEdit(task.id)}
-				  style={{ margin: 5 }}
 				>
 				  Edit
 				</button>
@@ -74,6 +73,7 @@ export default function TodoList({ tasks, dispatch }) {
 			  })
 			)
 		  }
+		  style={{ marginLeft: 15 }}
 		>
 		  Remove all todos
 		</button>
