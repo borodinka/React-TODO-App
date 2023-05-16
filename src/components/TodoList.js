@@ -75,7 +75,7 @@ export default function TodoList({ tasks, dispatch }) {
 		  }
 		  style={{ marginLeft: 15 }}
 		>
-		  Remove all todos
+		  Remove all TODOs
 		</button>
 	  </>
 	);
