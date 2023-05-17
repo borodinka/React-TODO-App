@@ -29,7 +29,7 @@ export default function TodoList({ tasks, dispatch }) {
 				  value={editedText}
 				  onChange={(e) => setEditedText(e.target.value)}
 				/>
-				<button onClick={handleSave}>Save</button>
+				<button onClick={handleSave} style={{ margin: 5 }}>Save</button>
 			  </>
 			) : (
 			  <>
@@ -55,9 +55,7 @@ export default function TodoList({ tasks, dispatch }) {
 				>
 				  Delete
 				</button>
-				<button
-				  onClick={() => handleEdit(task.id)}
-				>
+				<button onClick={() => handleEdit(task.id)}>
 				  Edit
 				</button>
 			  </>
@@ -75,7 +73,7 @@ export default function TodoList({ tasks, dispatch }) {
 		  }
 		  style={{ marginLeft: 15 }}
 		>
-		  Remove all TODOs
+		  Remove all todos
 		</button>
 	  </>
 	);
