@@ -14,6 +14,7 @@ export default function AddTodo({ dispatch }) {
 			type: 'ADD_TODO',
 			text: (formData.get('text'))
 		});
+		inputRef.current.value = "";
 	}
 
 	return (
