@@ -19,7 +19,7 @@ export default function TodoList({ tasks, dispatch }) {
 			  		})
 				)
 			}
-		  	style={{ marginLeft: 15 }}>
+		  	style={{ marginLeft: 18 }}>
 		  		Remove all todos
 			</button>
 	  </>
